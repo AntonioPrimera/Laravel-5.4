@@ -11,6 +11,10 @@ git init
 
 wget https://raw.githubusercontent.com/AntonioPrimera/Laravel-5.4/master/.gitignore
 
+git add --all
+
+git commit -m "Initial project setup"
+
 
 ## PhpStorm IDE Helper
 
