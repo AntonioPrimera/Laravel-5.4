@@ -1,14 +1,14 @@
 # Laravel-5.4
 Laravel 5.4 Project Setup
 
-##Create a new project
+## Create a new project
 laravel new [project name]
 
-##Git setup
+## Git setup
 git init
 wget 
 
-##PhpStorm IDE Helper
+## PhpStorm IDE Helper
 - generate the _ide_helper.php file
 composer require --dev barryvdh/laravel-ide-helper
 php artisan clear-compiled
