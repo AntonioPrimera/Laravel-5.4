@@ -33,3 +33,13 @@ For Laravel 5.4:
 ~~~~
 wget https://gist.githubusercontent.com/barryvdh/5227822/raw/2c73039cd2b11c2f90f22e829de0231dd3733d62/_ide_helper.php
 ~~~~
+
+# Quick Setup for Laravel 5.4(all in one step)
+~~~~
+laravel new [project name]
+git init  
+wget https://raw.githubusercontent.com/AntonioPrimera/Laravel-5.4/master/.gitignore  
+git add --all  
+git commit -m "Initial project setup"
+wget https://gist.githubusercontent.com/barryvdh/5227822/raw/2c73039cd2b11c2f90f22e829de0231dd3733d62/_ide_helper.php
+~~~~
