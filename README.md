@@ -10,7 +10,7 @@ git init
 wget 
 
 ## PhpStorm IDE Helper
-- generate the _ide_helper.php file
+### Generate the _ide_helper.php file
 
 composer require --dev barryvdh/laravel-ide-helper
 
@@ -20,5 +20,9 @@ php artisan ide-helper:generate
 
 php artisan optimize
 
-- or get a pre-generated file (check out https://github.com/barryvdh/laravel-ide-helper for the latest one)
+### Or get a pre-generated file
+check out https://github.com/barryvdh/laravel-ide-helper for the latest one
+
+For Laravel 5.4:
+
 wget https://gist.githubusercontent.com/barryvdh/5227822/raw/2c73039cd2b11c2f90f22e829de0231dd3733d62/_ide_helper.php
